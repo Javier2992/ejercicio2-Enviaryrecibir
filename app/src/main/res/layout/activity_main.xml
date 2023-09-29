@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewCoches"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Coches:0"
+        android:textColor="#9C27B0"
+        android:textSize="14sp"
+        tools:gravity="center" />
+
+    <Button
+        android:id="@+id/btnCoches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR COCHES"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconGravity="start" />
+
+    <TextView
+        android:id="@+id/textViewMotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Motos:0"
+        android:textColor="#9C27B0"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnMotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR MOTOS"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconGravity="start" />
+
+    <TextView
+        android:id="@+id/textViewBicis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Bicis:0"
+        android:textColor="#9C27B0"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnBicis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR BICIS"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconGravity="start" />
+
+</LinearLayout>
